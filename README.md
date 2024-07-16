@@ -1,4 +1,14 @@
-# academic_101
+<h1 align="center">
+    <a href="https://github.com/cs-gavin-huang/academic_101">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cs-gavin-huang/academic_101/master/static/img/Academic_101_night.svg?sanitize=true">
+          <img alt="Crawlee" src="https://raw.githubusercontent.com/apify/crawlee-python/master/website/static/img/crawlee-light.svg?sanitize=true" width="500">
+        </picture>
+    </a>
+    <br>
+    <small>A web scraping and browser automation library</small>
+</h1>
+
 English | [简体中文](./README-zh.md)
 
 A simple project-based learning project to teach you how to get started with computer science research
