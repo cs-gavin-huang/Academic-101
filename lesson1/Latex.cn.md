@@ -79,6 +79,8 @@ This is the introduction section.
 \end{figure}
 ```
 
+0. 图片文件夹: 一般将图片放在一个文件夹中，方便管理。
+
 1. 矢量图：图片何必是图片，很多会议或者期刊会要求使用矢量图，如PDF，SVG等。很多时候一些模型图，在PPT绘制完毕后，可以直接导出为PDF（文字），然后以图片形式插入到LaTeX中。
 
 2. 正文引用：使用`\ref{fig:example}`或者`~\ref(fig:example)`，这样在正文中引用时，自动进行编号。
