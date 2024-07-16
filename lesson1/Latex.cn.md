@@ -65,23 +65,42 @@ This is the introduction section.
 
 - **图片**
 
+
+![图片插入](https://i.postimg.cc/NM7KnVPs/Pix-Pin-2024-07-16-15-52-35.png)
+
 ```latex
 \usepackage{graphicx}  % 导入图片包，一般放在开头，不需要重复放置
 
 \begin{figure}
 
 \centering % 图片居中
-\includegraphics[width=0.5\textwidth] % 宽度为当页宽度的一半 \textwidth即原宽度
-    {example-image-a.png} % 图片文件名
+\includegraphics[width=0.5\textwidth]  {example-image-a.png}
+% 宽度为当页宽度的一半 \textwidth即原宽度  % 图片文件名
 \caption{This is a figure} % 图题
 \label{fig:example} % 图标签， 从而可以在正文中索引
 
 \end{figure}
 ```
+---
+
+
+![图片文件夹](https://i.postimg.cc/Nf1r2Kx9/Pix-Pin-2024-07-16-15-54-55.png)
 
 0. 图片文件夹: 一般将图片放在一个文件夹中，方便管理。
 
+![矢量图](https://i.postimg.cc/jd5StCFY/Pix-Pin-2024-07-16-16-07-18.png)
+
 1. 矢量图：图片何必是图片，很多会议或者期刊会要求使用矢量图，如PDF，SVG等。很多时候一些模型图，在PPT绘制完毕后，可以直接导出为PDF（文字），然后以图片形式插入到LaTeX中。
+```latex
+\begin{figure}
+
+\centering
+\includegraphics[width=\textwidth]{image/alphabet.pdf}
+\caption{This is vector alphabet} 
+\label{fig:vector}
+\end{figure}
+
+```
 
 2. 正文引用：使用`\ref{fig:example}`或者`~\ref(fig:example)`，这样在正文中引用时，自动进行编号。
 
@@ -96,9 +115,9 @@ This is the introduction section.
 ### 使用学术会议模板
 
 #### 找到会议官网并下载模板
-1. 访问目标学术会议的官方网站（例如，ACM、IEEE等）。
+1. 访问目标学术会议的官方网站（例如，ACM、IEEE、会议等）。
 2. 在网站上找到论文提交指南（通常在“Submission”或“Authors”部分）。
-3. 下载官方提供的LaTeX模板包。
+3. 下载官方提供的LaTeX模板包，一般举办多年的直接参照往年的模板就可以了，没有太大变化。
 
 #### 导入模板并编辑
 1. 解压下载的模板包。
@@ -107,6 +126,7 @@ This is the introduction section.
 4. 编辑主文件（通常是`sample.tex`或`conference.tex`），按照会议要求撰写论文。
 
 ### 通过arXiv获取他人的TeX源文件
+- 什么需要这个步骤：你做的恰好是作者同样的领域，并且使用差不多的数学公式，这样你可以直接参考他们的公式以及latex标记，而不用自己重新写一遍。
 
 #### 在arXiv上查找论文
 1. 访问[arXiv官网](https://arxiv.org/)。
@@ -126,4 +146,6 @@ This is the introduction section.
 
 ---
 
-以上三个部分分别介绍了如何创建空白文档、使用学术会议模板以及通过arXiv获取他人的TeX源文件进行编辑。希望这些步骤和示例对你有所帮助！
+以上三个部分分别介绍了如何创建空白文档、使用学术会议模板以及通过arXiv获取他人的TeX源文件进行编辑。希望这些步骤和示例对你有所帮助！下面是一些可以深入学习的Latex的资源：
+
+1. 
