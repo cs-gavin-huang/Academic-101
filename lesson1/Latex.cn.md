@@ -82,11 +82,14 @@ This is the introduction section.
 \end{figure}
 ```
 ---
+---
 
 
 ![图片文件夹](https://i.postimg.cc/Nf1r2Kx9/Pix-Pin-2024-07-16-15-54-55.png)
 
 0. 图片文件夹: 一般将图片放在一个文件夹中，方便管理。
+
+---
 
 ![矢量图](https://i.postimg.cc/jd5StCFY/Pix-Pin-2024-07-16-16-07-18.png)
 
@@ -101,9 +104,11 @@ This is the introduction section.
 \end{figure}
 
 ```
+---
 
 2. 正文引用：使用`\ref{fig:example}`或者`~\ref(fig:example)`，这样在正文中引用时，自动进行编号。
 
+---
 3. 图片位置：可以使用`[h]`，`[t]`，`[b]`，`[p]`，`[!]`等参数，来控制图片的位置，然而图片的大小是影响版面的主要因素，可以合理控制宽度从而使在页面中的位置可控。
 
 
