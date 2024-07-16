@@ -1,20 +1,19 @@
 <h1 align="center">
     <a href="https://github.com/cs-gavin-huang/academic_101">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cs-gavin-huang/academic_101/master/static/img/Academic_101_night.svg?sanitize=true">
-          <img alt="Crawlee" src="https://raw.githubusercontent.com/apify/crawlee-python/master/website/static/img/crawlee-light.svg?sanitize=true" width="500">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cs-gavin-huang/academic_101/master/static/img/Academic_101_night.svg">
+          <img alt="academic101" src="https://raw.githubusercontent.com/cs-gavin-huang/academic_101/master/static/img/Academic_101.svg" width="500">
         </picture>
     </a>
     <br>
-    <small>A web scraping and browser automation library</small>
 </h1>
 
 English | [简体中文](./README-zh.md)
 
-A simple project-based learning project to teach you how to get started with computer science research
+**A simple and project-based learning repo, teach you how to get started with computer science research**
 
 Definition of CS research: 
-> Computer science research is a process of solving computer science problems through scientific methods. It is a systematic study, including problem definition, data collection, hypothesis verification, experimental design, result analysis and conclusion. The purpose of computer science research is to improve the theoretical and practical level of computer science and promote the development of computer science / or simply to publish papers.
+> Computer science research is a process of solving computer science problems through scientific methods. It is a systematic study, including problem definition, data collection, hypothesis verification, experimental design, result analysis and conclusion. The purpose of computer science research is to improve the theoretical and practical level of computer science and promote the development of computer science / *simply to publish papers*.
 
 Table of Contents
 =================

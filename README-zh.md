@@ -1,10 +1,20 @@
-# 学术 101
+<h1 align="center">
+    <a href="https://github.com/cs-gavin-huang/academic_101">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cs-gavin-huang/academic_101/master/static/img/Academic_101_night.svg">
+          <img alt="academic101" src="https://raw.githubusercontent.com/cs-gavin-huang/academic_101/master/static/img/Academic_101.svg" width="500">
+        </picture>
+    </a>
+    <br>
+    <small>学术 101</small>
+</h1>
+
 [English](./README.md) | 简体中文
 
 一个简单且基于project学习的项目，教你如何入门计算机科学研究
 
 计算机科学研究定义
-> 计算机科学研究是一种通过科学方法解决计算机科学问题的过程。它是一种系统性的研究，包括问题的定义、数据的收集、假设的验证、实验的设计、结果的分析和结论的提出。计算机科学研究的目的是为了提高计算机科学的理论和实践水平，推动计算机科学的发展 / 或者单指发论文。
+> 计算机科学研究是一种通过科学方法解决计算机科学问题的过程。它是一种系统性的研究，包括问题的定义、数据的收集、假设的验证、实验的设计、结果的分析和结论的提出。计算机科学研究的目的是为了提高计算机科学的理论和实践水平，推动计算机科学的发展 或者 *单指发论文*。
 
 目录
 =================
