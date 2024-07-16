@@ -16,6 +16,16 @@ HowToUse
 =================
 You can read this repo in order or selectively according to your needs.
 
+TODO
+=================
+- [ ] L1 - Latex format writing
+- [ ] L2 - Literature reading and management
+- [ ] L3 - Reliable development environment
+- [ ] L4 - Experimental record
+- [ ] L5 - Submission and rebuttal
+- [ ] L6 - Work Share and report
+- [ ] L6 - Idea generation and verification
+
 Contribution
 =================
 This repo is still under construction, and everyone is welcome to submit issues and pull requests.
