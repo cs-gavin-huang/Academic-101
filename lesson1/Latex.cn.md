@@ -59,6 +59,37 @@ This is the introduction section.
 4. `\begin{abstract}`和`\end{abstract}`包裹摘要内容，
 5. `\section{}`和`\subsection{}`用于生成章节和子章节。
 
+![Overleaf生成预览](https://i.postimg.cc/tCnxq1LV/Title-page.png)
+
+#### 重要元素
+
+- **图片**
+
+```latex
+\usepackage{graphicx}  % 导入图片包，一般放在开头，不需要重复放置
+
+\begin{figure}
+
+\centering % 图片居中
+\includegraphics[width=0.5\textwidth] % 宽度为当页宽度的一半 \textwidth即原宽度
+    {example-image-a.png} % 图片文件名
+\caption{This is a figure} % 图题
+\label{fig:example} % 图标签， 从而可以在正文中索引
+
+\end{figure}
+```
+
+1. 矢量图：图片何必是图片，很多会议或者期刊会要求使用矢量图，如PDF，SVG等。很多时候一些模型图，在PPT绘制完毕后，可以直接导出为PDF（文字），然后以图片形式插入到LaTeX中。
+
+2. 正文引用：使用`\ref{fig:example}`或者`~\ref(fig:example)`，这样在正文中引用时，自动进行编号。
+
+3. 图片位置：可以使用`[h]`，`[t]`，`[b]`，`[p]`，`[!]`等参数，来控制图片的位置，然而图片的大小是影响版面的主要因素，可以合理控制宽度从而使在页面中的位置可控。
+
+
+
+
+
+
 
 ### 使用学术会议模板
 
