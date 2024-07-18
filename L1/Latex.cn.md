@@ -1,6 +1,6 @@
-### Overleaf 使用入门：面向CS学术论文
+# Overleaf 使用入门：面向CS学术论文
 
-#### 目录
+## 目录
 0. [引言](#引言)
 1. [自己创建空白文档注意事项](#自己创建空白文档注意事项)
     1. [注册Overleaf账号](#注册Overleaf账号)
@@ -15,28 +15,29 @@
     3. [编辑和编译论文](#编辑和编译论文)
 
 ---
-### 引言
+## 引言
 尽管可以在本地部署LaTeX编辑环境，例如通过安装TeX Live或MikTeX，并使用编辑器如TeXstudio或VS Code进行编辑，但这些方式通常涉及较为复杂的配置和维护。
 
 相比之下，Overleaf是一款在线LaTeX编辑器，省去了本地部署的麻烦，并且在大部分情况下是免费的。Overleaf不仅支持多平台访问，还提供了强大的协作功能，非常适合撰写学术论文。
 
+> 如果需要部署本地环境，请参考这个教程 -> [本地latex部署](./LocalTex.cn.md)
 
-### 自己创建空白文档注意事项
+## 创建空白文档
 
-#### 注册Overleaf账号
+### 注册Overleaf账号
 
 ![Overleaf注册](https://i.postimg.cc/25d069LM/Pix-Pin-2024-07-16-14-30-50.png)
 
 1. 访问[Overleaf官网](https://www.overleaf.com/)，点击右上角的“注册”按钮。
 2. 输入您的邮箱地址和密码，或使用Google、ORCID等第三方账号注册。
 
-#### 创建空白项目
+### 创建空白项目
 ![Overleaf新建项目](https://i.postimg.cc/rs51nKGb/Pix-Pin-2024-07-16-14-40-19.png)
 1. 登录后点击左上角的“New Project”按钮。
 2. 选择“Blank Project”创建一个空白项目。
 3. 为项目命名并点击“Create”按钮。
 
-#### 基本Latex语法
+### 基本Latex语法
 ```latex
 \documentclass{article}
 \begin{document}
@@ -61,9 +62,11 @@ This is the introduction section.
 
 ![Overleaf生成预览](https://i.postimg.cc/tCnxq1LV/Title-page.png)
 
-#### 重要元素
+### 论文主要元素语法
 
-- **图片**
+#### 文字
+
+#### 图片
 
 
 ![图片插入](https://i.postimg.cc/NM7KnVPs/Pix-Pin-2024-07-16-15-52-35.png)
@@ -80,16 +83,10 @@ This is the introduction section.
 \label{fig:example} % 图标签， 从而可以在正文中索引
 
 \end{figure}
-```
----
----
-
 
 ![图片文件夹](https://i.postimg.cc/Nf1r2Kx9/Pix-Pin-2024-07-16-15-54-55.png)
 
 0. 图片文件夹: 一般将图片放在一个文件夹中，方便管理。
-
----
 
 ![矢量图](https://i.postimg.cc/jd5StCFY/Pix-Pin-2024-07-16-16-07-18.png)
 
@@ -98,20 +95,46 @@ This is the introduction section.
 \begin{figure}
 
 \centering
-\includegraphics[width=\textwidth]{image/alphabet.pdf}
+\includegraphics[width=\textwidth]{image/alphabet.pdf} %后缀根据文件名唯一与否来去除
 \caption{This is vector alphabet} 
 \label{fig:vector}
 \end{figure}
 
 ```
----
 
 2. 正文引用：使用`\ref{fig:example}`或者`~\ref(fig:example)`，这样在正文中引用时，自动进行编号。
 
----
+```latex
+In Figure~\ref{fig:another-example}, we can see another example of an included image.
+```
+
 3. 图片位置：可以使用`[h]`，`[t]`，`[b]`，`[p]`，`[!]`等参数，来控制图片的位置，然而图片的大小是影响版面的主要因素，可以合理控制宽度从而使在页面中的位置可控。
 
+```latex
+\begin{figure}[htbp]  % Place the figure here (h), top of the page (t), bottom of the page (b), on a separate page (p)
+    \centering % 是否居中显示
 
+    \includegraphics[width=\textwidth]{example-image.png}
+    \caption{Image placed using additional placement options}
+    \label{fig:additional-placement}
+\end{figure}
+```
+
+太好了！ 你已经掌握了基本的图片部分，现在结合实际论文工作理解一下吧。
+
+
+
+CS科研绘图既是一项技术活，又涉及审美设计。主要可以分为程序生成和手工绘制两种方式。如果你现在就非常感兴趣的话，可以前往...查看
+
+#### 表格
+
+
+
+#### 公式
+
+
+
+#### 
 
 
 
