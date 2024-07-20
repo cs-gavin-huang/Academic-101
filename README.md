@@ -29,12 +29,26 @@ You can read this repo in order or selectively according to your needs.
 TODO
 =================
 - [ ] L1 - Latex format writing
+  - [ ] L1.1 - Online Latex Editor
+  - [ ] L1.2 - Tex Compiler
 - [ ] L2 - Literature reading and management
+  - [ ] L2.1 - Reading
+  - [ ] L2.2 - Reference management
 - [ ] L3 - Reliable development environment
+  - [ ] L3.1 - Code Editor
+  - [ ] L3.2 - Version Control
+  - [ ] L3.3 - Runtime Environment
 - [ ] L4 - Experimental record
+  - [ ] L4.1 - Log
 - [ ] L5 - Submission and rebuttal
+  - [ ] L5.1 - Submit Timeline
+  - [ ] L5.2 - Rebuttal
 - [ ] L6 - Work Share and report
+  - [ ] L6.1 - Presentation
+  - [ ] L6.2 - Report
 - [ ] L6 - Idea generation and verification
+  - [ ] L6.1 - Brainstorming
+  - [ ] L6.2 - Chrome Extension
 
 Contribution
 =================
