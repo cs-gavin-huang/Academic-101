@@ -46,9 +46,9 @@ TODO
 - [ ] L6 - Work Share and report
   - [ ] L6.1 - Presentation
   - [ ] L6.2 - Report
-- [ ] L6 - Idea generation and verification
-  - [ ] L6.1 - Brainstorming
-  - [ ] L6.2 - Chrome Extension
+- [ ] L7 - Idea generation and verification
+  - [ ] L7.1 - Brainstorming
+  - [ ] L7.2 - Chrome Extension
 
 Contribution
 =================
